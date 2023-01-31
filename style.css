@@ -1,0 +1,20 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+[data-toggle ='modal']{
+    padding: 15px 25px;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+    text-transform: uppercase;
+}
+[data-title]{
+    color: red;
+}
