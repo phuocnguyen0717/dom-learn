@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link id="color-skin" rel="stylesheet" href="css/style-1.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="container">
-        <!-- Cấu trúc DOM trong HTML -->
-        <h1>Javascript DOM</h1>
-        <div id="demo">Id demo</div> 
+      <!-- Cấu trúc DOM trong HTML -->
+      <h1>Javascript DOM</h1>
+      <div id="demo">Id demo</div>
 
-        <div class="demo" data-title="test 1">class demo1</div>
-        <div class="demo" data-title="test 2">class demo2</div>
-        <div class="demo">Id demo3</div>
-        <div class="demo">Id demo4</div>
+      <div class="demo" data-title="test 1">class demo1</div>
+      <div class="demo" data-title="test 2">class demo2</div>
+      <div class="demo">Id demo3</div>
+      <div class="demo">Id demo4</div>
 
-        <img src="" alt="" class="image">
-
-        <button data-toggle="modal"> Click me</button>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusantium obcaecati odit molestias. Ratione nostrum deleniti voluptates numquam commodi? Porro magnam cum esse quo libero repudiandae cumque nostrum mollitia iusto!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusantium obcaecati odit molestias. Ratione nostrum deleniti voluptates numquam commodi? Porro magnam cum esse quo libero repudiandae cumque nostrum mollitia iusto!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusantium obcaecati odit molestias. Ratione nostrum deleniti voluptates numquam commodi? Porro magnam cum esse quo libero repudiandae cumque nostrum mollitia iusto!</p>
+      <img src="" alt="" class="image" />
+      <button onclick="changeStyleColor('css/style-1.css')" style="background-color:#2980b9" color: #fff border-color:#2980b9>click me</button>
+        <button onclick="changeStyleColor('css/style-2.css')" style="background-color:#b96329" color: #fff border-color:#b96329>click me</button>
+        <button onclick="changeStyleColor('css/style-3.css')" style="background-color:#b92929" color: #fff border-color:#b92929>click me</button>
+        <br>
+        <button onclick="changeStyleContainer('box')" style="background-color: #b92929;">box</button>
+        <button onclick="changeStyleContainer('wide')" style="background-color: #b96329;">wide</button>
     </div>
     <!-- <script src="main.js"></script> -->
     <!-- <script src="main-2.js"></script> -->
-    <script src="main-3.js"></script>
-</body>
+    <!-- <script src="main-3.js"></script> -->
+    <script src="main-4.js"></script>
+  </body>
 </html>

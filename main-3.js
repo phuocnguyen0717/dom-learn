@@ -25,3 +25,8 @@ console.log("temp = ", temp);// bị dư một khoảng trắng cuối cùng
 document.getElementById("demo").setAttribute("data-title", temp.trim())
 
 console.log(elDataTitle);
+/*
+Code trong Javascript sẽ có 2 trường hợp được thực thi
+1. Chạy ngay từ đầu khi load lại trang
+2. Chạy ngay khi nhận 1 tương tác t ừ người dùng(Nhấn chuột click,rê chuột)
+*/
